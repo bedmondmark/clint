@@ -1,8 +1,10 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from clint import args
+from clint import arguments
 from clint.textui import puts, colored
+
+args = arguments.Args()
 
 all_args = args.grouped
 
